@@ -1,6 +1,6 @@
-# Frontend Developer Guide [![Date](https://img.shields.io/badge/Date-18%2F06%2F2020-success)](http://www.fechadehoy.com/mexico)
+# Learning HTML5 [![Date](https://img.shields.io/badge/Date-18%2F07%2F2020-success)](http://www.fechadehoy.com/mexico)
 
-# HTML 2020
+> **H**yper **T**ext **M**arckup **L**anguaje, _(en español: Lenguaje de Marcado de HyperTexto)_ es un lenguaje que se utiliza para estructurar sitios web; HTML establece `¿qué?` se muestra.
 
 ---
 
@@ -11,8 +11,6 @@
 3. [Entidades HTML](#entidades-html)
 
 ---
-
-> **H**yper **T**ext **M**arckup **L**anguaje, _(en español: Lenguaje de Marcado de HyperTexto)_ es un lenguaje que se utiliza para estructurar sitios web; HTML establece `¿qué?` se muestra.
 
 ## Estructura Básica
 
@@ -29,7 +27,7 @@
 </html>
 ```
 
-**Nota:** Con esta estructurra ya tienes una página simple.
+> **Nota:** Con esta estructurra ya tienes una página simple.
 
 ## Estructura HTML 5
 
