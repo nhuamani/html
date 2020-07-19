@@ -7,7 +7,7 @@ _Apuntes de mi aprendizaje en HTML5._
 Otras Guías de Estilos
 
 -   [CSS](https://github.com/nhuamani/css)
--   [HTML](https://github.com/nhuamani/javascript)
+-   [JavaScript](https://github.com/nhuamani/javascript)
 -   [GIT](https://github.com/nhuamani/git)
 
 ## Table of Contents
