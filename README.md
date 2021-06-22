@@ -18,6 +18,10 @@ Otras Guías de Estilos
 
 ---
 
+![Perfil](https://scontent.faqp5-1.fna.fbcdn.net/v/t1.6435-9/78553775_943147626055700_8531055890361483264_n.jpg)
+
+
+
 ## Estructura Básica
 
 ```html
@@ -29,13 +33,14 @@ Otras Guías de Estilos
 
     <body>
         <h1>My Firts Page</h1>
+        <!--This is comment-->
     </body>
 </html>
 ```
 
-> **Nota:** Con esta estructurra ya tienes una página simple.
+> **Nota:** Con esta estructurra ya tienes una página.
 
-## Estructura HTML 5
+## Estructura HTML5
 
 ```html
 <!DOCTYPE html>
@@ -43,7 +48,9 @@ Otras Guías de Estilos
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Firt Document</title>
+        <meta name="description" content="This is my first web page, thanks for visiting" />
+        <title>First Document</title>
+        <link rel="icon" href="" />
     </head>
 
     <body>
@@ -52,6 +59,34 @@ Otras Guías de Estilos
     </body>
 </html>
 ```
+
+## Estructura semántica HTML5
+
+## Comentarios
+
+## Favicon en la pagina web
+
+## Formato de texto (dividir más)
+
+## Link
+
+## Listas ordenadas
+
+## Listas no ordenadas
+
+## Tablas
+
+## Imagenes
+
+## Audio
+
+## Video
+
+## Iframe
+
+## Iframes Maps
+
+## Forms
 
 ## Entidades HTML
 
