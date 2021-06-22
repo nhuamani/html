@@ -23,6 +23,8 @@ Otras Guías de Estilos
 
 ![Sintaxis de HTML](https://nhuamani.github.io/images/html-sintaxis.png)
 
+[⬆ back to top](#table-of-contents)
+
 ### Tipos de Elementos✔✓
 
 #### Apertura y cierre
@@ -34,7 +36,7 @@ Otras Guías de Estilos
 
 > **Nota:** La mayor cántidad de elementos son de este tipo.
 
-#### Self closing
+#### Self closing - Void Elements
 
 - `<img/>`
 - `<meta/>`
@@ -49,9 +51,9 @@ Otras Guías de Estilos
 - `<track/>`
 - `<wbr/>`
 
-* *_Puedes ver mas en: _*
+> ℹ Especificación: [Whatwg](https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
 
-> ℹ Especificación: [Whatwg](https://html.spec.whatwg.org/multipage/syntax.html#void-elements) 📖🕮📚
+[⇡☝ back to top](#table-of-contents)
 
 ## Estructura Básica
 
