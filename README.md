@@ -18,7 +18,7 @@ Otras Guías de Estilos
 
 ---
 
-![Perfil](https://octodex.github.com/images/yaktocat.png)
+![Sintaxis](https://nhuamani.github.com/images/html-sintaxis.png)
 
 
 
