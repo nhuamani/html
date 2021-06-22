@@ -23,8 +23,7 @@ Otras Guías de Estilos
 
 ![Sintaxis de HTML](https://nhuamani.github.io/images/html-sintaxis.png)
 
-### Tipos de etiquetas│
-✔✓
+### Tipos de Elementos✔✓
 
 #### Apertura y cierre
 - `<h1></h1>`
@@ -33,13 +32,26 @@ Otras Guías de Estilos
 - `<nav><nav/>`
 - ...
 
-### Self closing
+> **Nota:** La mayor cántidad de elementos son de este tipo.
+
+#### Self closing
 
 - `<img/>`
 - `<meta/>`
 - `<link/>`
 - `<input/>`
-- ...
+- `<br/>`
+- `<hr/>`
+- `<source/>`
+- `<col/>`
+- `<embed/>`
+- `<param/>`
+- `<track/>`
+- `<wbr/>`
+
+* *_Puedes ver mas en: _*
+
+> ℹ Especificación: [Whatwg](https://html.spec.whatwg.org/multipage/syntax.html#void-elements) 📖🕮📚
 
 ## Estructura Básica
 
@@ -57,7 +69,7 @@ Otras Guías de Estilos
 </html>
 ```
 
-> **Nota:** Con esta estructurra ya tienes una página.
+> **Nota:** Con esta estructura ya tienes una página.
 
 ## Estructura HTML5
 
