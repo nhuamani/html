@@ -18,7 +18,7 @@ Otras Guías de Estilos
 
 ---
 
-![Sintaxis](https://nhuamani.github.com/images/html-sintaxis.png)
+![Sintaxis](https://nhuamani.github.io/images/html-sintaxis.png)
 
 
 
