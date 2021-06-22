@@ -13,6 +13,7 @@ Otras Guías de Estilos
 ## Table of Contents
 
 1. [Sintaxis](#sintaxis)
+1. [Tipos de Elementos](#tipos-de-elementos)
 2. [Estructura Básica](#estructura-básica)
 2. [Estructura HTML 5](#estructura-html-5)
 3. [Entidades HTML](#entidades-html)
@@ -23,9 +24,9 @@ Otras Guías de Estilos
 
 ![Sintaxis de HTML](https://nhuamani.github.io/images/html-sintaxis.png)
 
-[⬆ back to top](#table-of-contents)
+[⇡ back to top](#table-of-contents)
 
-### Tipos de Elementos✔✓
+### Tipos de Elementos
 
 #### Apertura y cierre
 - `<h1></h1>`
@@ -36,7 +37,7 @@ Otras Guías de Estilos
 
 > **Nota:** La mayor cántidad de elementos son de este tipo.
 
-#### Self closing - Void Elements
+#### Self closing
 
 - `<img/>`
 - `<meta/>`
@@ -51,9 +52,9 @@ Otras Guías de Estilos
 - `<track/>`
 - `<wbr/>`
 
-> ℹ Especificación: [Whatwg](https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
+> ℹ Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
 
-[⇡☝ back to top](#table-of-contents)
+[⇡ back to top](#table-of-contents)
 
 ## Estructura Básica
 
@@ -123,7 +124,7 @@ Otras Guías de Estilos
 
 ## Entidades HTML
 
-**[⬆ back to top](#table-of-contents)**
+**[⇡ back to top](#table-of-contents)**
 
 ## Source
 
@@ -132,4 +133,4 @@ Otras Guías de Estilos
 -   [Living Standard (2020))](https://html.spec.whatwg.org/)
 -   [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Web/HTML)
 
-**[⬆ back to top](#table-of-contents)**
+**[☝ back to top](#table-of-contents)**
