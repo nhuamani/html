@@ -12,15 +12,34 @@ Otras Guías de Estilos
 
 ## Table of Contents
 
-1. [Estructura Básica](#estructura-básica)
+1. [Sintaxis](#sintaxis)
+2. [Estructura Básica](#estructura-básica)
 2. [Estructura HTML 5](#estructura-html-5)
 3. [Entidades HTML](#entidades-html)
 
 ---
 
-![Sintaxis](https://nhuamani.github.io/images/html-sintaxis.png)
+## Sintaxis
 
+![Sintaxis de HTML](https://nhuamani.github.io/images/html-sintaxis.png)
 
+### Tipos de etiquetas│
+✔✓
+
+#### Apertura y cierre
+- `<h1></h1>`
+- `<p></p/>`
+- `<ul><ul/>`
+- `<nav><nav/>`
+- ...
+
+### Self closing
+
+- `<img/>`
+- `<meta/>`
+- `<link/>`
+- `<input/>`
+- ...
 
 ## Estructura Básica
 
