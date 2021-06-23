@@ -13,10 +13,12 @@ Otras Guías de Estilos
 ## Table of Contents
 
 1. [Sintaxis](#sintaxis)
-1. [Tipos de Elementos](#tipos-de-elementos)
-2. [Estructura Básica](#estructura-básica)
-2. [Estructura HTML 5](#estructura-html-5)
+    1. [Tipos de Elementos](#tipos-de-elementos)
+2. [Categoría de Elementos](#categoria-de-elementos)
 3. [Entidades HTML](#entidades-html)
+4. [Estructura Básica](#estructura-básica)
+5. [Estructura HTML 5](#estructura-html-5)
+6. [Entidades HTML](#entidades-html)
 
 ---
 
@@ -120,6 +122,8 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 ```
 > 💡 &lt; es smaller than y &gt; greater than.
 
+**[⇡ back to top](#table-of-contents)**
+
 ## Estructura Básica
 
 ```html
@@ -131,7 +135,6 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
     <body>
         <h1>My Firts Page</h1>
-        <!-- This is comment -->
     </body>
 </html>
 ```
@@ -140,7 +143,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 ## Atributos
 
-> 💡 _Algunos atributos no son obligatorios, no requiren valor._
+> 💡 _Algunos atributos no son obligatorios, no requieren valor._
 
 ```html
 <!-- Example -->
@@ -197,10 +200,6 @@ Organizational elements
 ## Iframes Maps
 
 ## Forms
-
-## Entidades HTML
-
-**[⇡ back to top](#table-of-contents)**
 
 ## Temas de Interes
 
