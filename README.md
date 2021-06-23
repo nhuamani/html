@@ -14,11 +14,14 @@ Otras Guías de Estilos
 
 1. [Sintaxis](#sintaxis)
     1. [Tipos de Elementos](#tipos-de-elementos)
+        1. [Apertura / Cierre](#normal-elements-apertura-y-cierre)
+        2. [Self Closing](#void-elements-self-closing)
 2. [Categoría de Elementos](#categoria-de-elementos)
+    1. [Inline-level elements](#inline-level-elements)
+    2. [Block-level elements](#block-level-elements)
 3. [Entidades HTML](#entidades-html)
 4. [Estructura Básica](#estructura-básica)
 5. [Estructura HTML 5](#estructura-html-5)
-6. [Entidades HTML](#entidades-html)
 
 ---
 
@@ -173,7 +176,6 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 ## Estructura semántica HTML5
 Organizational elements
-
 
 ## Comentarios
 
