@@ -137,6 +137,12 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 > **Nota:** Con esta estructura ya tienes una página.
 
+> 💡 Si la pagina no tiene la instrucción `<!DOCTYPE html>`, el navegador se pone en **quirks mode**
+
+Leé este articulo para saber más.
+
+-   [_Cómo funcionan los navegadores_](https://www.html5rocks.com/es/tutorials/internals/howbrowserswork/)
+
 [⇡ back to top](#table-of-contents)
 
 ## **Atributos**
@@ -199,9 +205,109 @@ Algunas propiedades de JavaScript se pone como atributo: la forma elegante de po
 </html>
 ```
 
-## Estructura semántica HTML5
+### Favicon
 
-Organizational elements
+> 💡 _Los favicon **favorites icon** en español (icono de página): se recomienda utilizar el tamaño 16x16 píxeles o 32x32 píxeles y en formato .ico o .png_
+
+Puedes generar tus iconos en:
+
+-   [Favicon-generator](https://www.favicon-generator.org/)
+-   [Favicomatic](https://favicomatic.com/)
+-   [Favicon generator](https://realfavicongenerator.net/)
+
+## Estructura Semántica
+
+### Organizational elements
+
+Los elementos `<span></span>` y `<div></div>` son etiquetas genericas para los casos en que no hay una etiqueta especifica, no significan nada por sí solo, tambien se utiliza para agrupar elementos, `span` para los **Inline** y `div` para los **Block**.
+
+### Elementos de Seccion
+
+```html
+<!-- Encabezado -->
+<header></header>
+
+<!-- Navegación, para menus -->
+<nav></nav>
+
+<!-- Pie de página -->
+<footer></footer>
+
+<!-- Contenido independiente -->
+<article></article>
+
+<!-- Contenido relacionado pero secundario -->
+<aside></aside>
+
+<!-- Secciones o divisores de un contenido -->
+<section></section>
+
+<!-- Para mostrar el contenido principal, debe ser único -->
+<main></main>
+```
+
+### Estrucutra Semantica en HTML5
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sample page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="This is my first project with its detailed description." />
+        <link rel="icon" href="favicon.png" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <img src="assets/img/brand.png" alt="Brand Image" />
+            <nav>
+                <ul>
+                    <li>Review</li>
+                    <li>Mobile</li>
+                    <li>Camera</li>
+                    <li>Tablet</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Recent News</h1>
+            <article>
+                <header>
+                    <h2>SpaceX buys Amazon</h2>
+                </header>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus, alias repellat temporibus quibusdam, voluptas eveniet
+                    velit ex porro sunt quas pariatur nulla dolores aliquid commodi quidem enim fugiat hic!
+                </p>
+                <footer>
+                    <p>Published June, 10 of 2021</p>
+                </footer>
+            </article>
+        </main>
+
+        <aside>
+            <section>
+                <h2>Follow in Twitter</h2>
+            </section>
+        </aside>
+
+        <footer>
+            <p>&copy; Company Name - 2021</p>
+        </footer>
+    </body>
+</html>
+```
+
+> 💡 Evita aplicar los estilos directamente a las etiquetas.
+
+> 💡 Se recomienda tener solo un `<h1></h1>` en la página.
+
+#### Source
+
+-   [Validador semántico de HTML5](https://validator.w3.org/)
 
 [⇡ back to top](#table-of-contents)
 
