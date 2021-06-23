@@ -113,12 +113,12 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 &copy;
 <p>Las etiquetas html se escriben así:
-    &lt;p&gt;hola&lt;/p&gt;  <!--Resultado rendering-->  <p></p>
+    &lt;p&gt;hola&lt;/p&gt; // <!-- <p></p> -->
 </p>
 &alpha;
 α
 ```
-> 💡&lt; es smaller than y &gt; greater than.
+> 💡 &lt; es smaller than y &gt; greater than.
 
 ## Estructura Básica
 
@@ -140,7 +140,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 ## Atributos
 
-> 💡_Algunos atributos no son obligatorios, no requiren valor_.
+> 💡 _Algunos atributos no son obligatorios, no requiren valor._
 
 ```html
 <!-- Example -->
