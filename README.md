@@ -55,18 +55,18 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 ```html
 <!-- Example -->
 
-<img/>
-<meta/>
-<link/>
-<input/>
-<br/>
-<hr/>
-<source/>
-<col/>
-<embed/>
-<param/>
-<track/>
-<wbr/>
+<img />
+<meta />
+<link />
+<input />
+<br />
+<hr />
+<source />
+<col />
+<embed />
+<param />
+<track />
+<wbr />
 ```
 
 > ℹ [_WHATWG_](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
@@ -80,11 +80,11 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 ```html
 <!-- Example -->
 
-<code></code/>
+<code></code>
 <strong></strong>
 <label></label>
 <kbd></kbd>
-<span></span> ★
+<span>★</span>
 ...
 ```
 
@@ -98,10 +98,10 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 <!-- Example -->
 
 <pre></pre>
-<h1> through <h6>
+<cite></cite>
 <blockquote></blockquote>
 <table></table>
-<div></div> ★
+<div>★</div>
 ...
 ```
 
@@ -117,12 +117,13 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 <!-- Example -->
 
 &copy;
-<p>Las etiquetas html se escriben así:
-    &lt;p&gt;hola&lt;/p&gt; // <!-- <p></p> -->
+<p>
+    Las etiquetas html se escriben así: &lt;p&gt;hola&lt;/p&gt;
+    <!-- <p></p> -->
 </p>
-&alpha;
-α
+&alpha; α
 ```
+
 > 💡 &lt; es smaller than y &gt; greater than.
 
 **[⇡ back to top](#table-of-contents)**
@@ -144,15 +145,54 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 > **Nota:** Con esta estructura ya tienes una página.
 
-## Atributos
+## **Atributos**
 
-> 💡 _Algunos atributos no son obligatorios, no requieren valor._
+![Atributos en HTML](https://nhuamani.github.io/images/html-atributos.png)
+
+> Caracteristicas de los atributos
+
+```html
+<img src="imagen.png" />
+<img src="imagen.png" alt="imagen" />
+<img src="imagen.png" alt="imagen" class="imagen-banner" />
+```
+
+### Tipos de atributos
+
+#### Atributos Booleanos
 
 ```html
 <!-- Example -->
 
-<input required placehoder>
+<input required placehoder />
 ```
+
+> 💡 _Algunos atributos no requieren valor._
+
+#### Atributos Opcionales y Obligatorios
+
+```html
+<!-- Atributo obligatorio-->
+<img src="imagen.png" />
+
+<!-- Atributo obligatorio-->
+<a href="#">Link</a>
+
+<!-- id es un Atributo Opcional -->
+<img src="imagen.png" id="imagen" />
+```
+
+#### Atributos **data-\***
+
+Algunas propiedades de JavaScript se pone como atributo: la forma elegante de poner un atributo a una &lt;etiqueta&gt; HTML es con **data-ng-app , data-ng-filter**
+
+```html
+<!-- Atributo personalizados-->
+
+<div data-ng-app data-menu-active></div>
+```
+
+> 💡 _Este tipo de atributos es utilizado en los framework Angular React y Vue._
 
 ## Estructura HTML5
 
@@ -175,6 +215,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 ```
 
 ## Estructura semántica HTML5
+
 Organizational elements
 
 ## Comentarios
