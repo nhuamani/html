@@ -28,17 +28,19 @@ Otras Guías de Estilos
 
 ### Tipos de Elementos
 
-#### Normal elements
+Hay seis tipos diferentes de elementos: void elements, the template element, raw text elements, escapable raw text elements, foreign elements, and normal elements.
+
+#### Normal elements - apertura y cierre
 
 - `<h1></h1>`
-- `<p></p/>`
-- `<ul><ul/>`
-- `<nav><nav/>`
+- `<p></p>`
+- `<audio></audio>`
+- `<nav></nav>`
 - ...
 
-> **Nota:** La mayor cántidad de elementos son de este tipo.
+> 💡**Nota:** La mayor cántidad de elementos son de este tipo; pero existen mas tipos de elementos.
 
-#### Self closing
+#### Void elements - Self Closing
 
 - `<img/>`
 - `<meta/>`
@@ -53,9 +55,9 @@ Otras Guías de Estilos
 - `<track/>`
 - `<wbr/>`
 
-> 🛈 Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
+> 🛈 Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
 
-## Categoria de elementos
+## Categoría de Elementos
 
 ### Inline-level elements
 
@@ -72,12 +74,23 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen por completo.
 
 - `<p></p>`
-- `<h1> through  <h6>`
+- `<h1> through <h6>`
 - `<ul></ul>`
 - `<li></li>`
 - `<div></div> ★`
 
 [⇡ back to top](#table-of-contents)
+
+## Entidades HTML5
+
+```
+&copy;
+<p>Las etiquetas html se escriben así:
+    &lt;p&gt;hola&lt;/p&gt;  <!--Resultado rendering-->  <p></p>
+</p>
+&alpha;
+α
+```
 
 ## Estructura Básica
 
