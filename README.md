@@ -35,7 +35,8 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 - `<h1></h1>`
 - `<p></p>`
 - `<audio></audio>`
-- `<nav></nav>`
+- `<video></video>`
+- `<address></address>`
 - ...
 
 > **Nota:** La mayor cántidad de elementos son de este tipo; pero existen mas tipos de elementos.
@@ -63,20 +64,22 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 
 Los elementos **inline** se colocan uno al lado del otro hasta completar el espacio disponible, luego se colocan uno debajo del otro.
 
-- `<img/>`
-- `<input/>`
-- `<label></label>`
-- `<a></a>`
-- `<span></span> ★`
+```html
+<code></code/>
+<strong></strong>
+<label></label>
+<kbd></kbd>
+<span></span> ★
+```
 
 ### Block-level elements
 
 Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen por completo.
 
-- `<p></p>`
+- `<pre></pre>`
 - `<h1> through <h6>`
-- `<ul></ul>`
-- `<li></li>`
+- `<blockquote></blockquote>`
+- `<table></table>`
 - `<div></div> ★`
 
 [⇡ back to top](#table-of-contents)
@@ -85,7 +88,7 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 
 Para poder incluir los caracteres **>** y **<**, cuando quires escribir código html en una página web y para los caracteres Unicode, aunque ya no es nesesario por el soporte de [Unicode UTF-8](https://unicode-table.com).
 
-```
+```html
 &copy;
 <p>Las etiquetas html se escriben así:
     &lt;p&gt;hola&lt;/p&gt;  <!--Resultado rendering-->  <p></p>
@@ -115,7 +118,9 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 ## Atributos
 
+> 💡_Algunos atributos no son obligatorios, no requiren valor_.
 
+`<input required placehoder>`
 
 ## Estructura HTML5
 
