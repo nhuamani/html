@@ -38,8 +38,6 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 #### Normal elements - apertura y cierre
 
 ```html
-<!-- Example -->
-
 <h1></h1>
 <p></p>
 <audio></audio>
@@ -53,8 +51,6 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 #### Void elements - Self Closing
 
 ```html
-<!-- Example -->
-
 <img />
 <meta />
 <link />
@@ -78,8 +74,6 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 Los elementos **inline** se colocan uno al lado del otro hasta completar el espacio disponible, luego se colocan uno debajo del otro.
 
 ```html
-<!-- Example -->
-
 <code></code>
 <strong></strong>
 <label></label>
@@ -95,8 +89,6 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen por completo.
 
 ```html
-<!-- Example -->
-
 <pre></pre>
 <cite></cite>
 <blockquote></blockquote>
@@ -114,8 +106,6 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 Para poder incluir los caracteres **>** y **<**, cuando quires escribir código html en una página web y para los caracteres Unicode, aunque ya no es nesesario por el soporte de [Unicode UTF-8](https://unicode-table.com).
 
 ```html
-<!-- Example -->
-
 &copy;
 <p>
     Las etiquetas html se escriben así: &lt;p&gt;hola&lt;/p&gt;
@@ -151,19 +141,11 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 > Caracteristicas de los atributos
 
-```html
-<img src="imagen.png" />
-<img src="imagen.png" alt="imagen" />
-<img src="imagen.png" alt="imagen" class="imagen-banner" />
-```
-
 ### Tipos de atributos
 
 #### Atributos Booleanos
 
 ```html
-<!-- Example -->
-
 <input required placehoder />
 ```
 
@@ -173,13 +155,11 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 ```html
 <!-- Atributo obligatorio-->
-<img src="imagen.png" />
-
-<!-- Atributo obligatorio-->
+<img src="imagen.png" alt="imagen" />
 <a href="#">Link</a>
 
-<!-- id es un Atributo Opcional -->
-<img src="imagen.png" id="imagen" />
+<!-- class y id son un Atributo Opcional -->
+<img src="imagen.png" alt="imagen" class="imagen-banner" id="imagen" />
 ```
 
 #### Atributos **data-\***
@@ -188,7 +168,6 @@ Algunas propiedades de JavaScript se pone como atributo: la forma elegante de po
 
 ```html
 <!-- Atributo personalizados-->
-
 <div data-ng-app data-menu-active></div>
 ```
 
