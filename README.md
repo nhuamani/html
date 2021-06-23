@@ -32,29 +32,33 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 
 #### Normal elements - apertura y cierre
 
-- `<h1></h1>`
-- `<p></p>`
-- `<audio></audio>`
-- `<video></video>`
-- `<address></address>`
-- ...
+```html
+<h1></h1>
+<p></p>
+<audio></audio>
+<video></video>
+<address></address>
+...
+```
 
 > **Nota:** La mayor cántidad de elementos son de este tipo; pero existen mas tipos de elementos.
 
 #### Void elements - Self Closing
 
-- `<img/>`
-- `<meta/>`
-- `<link/>`
-- `<input/>`
-- `<br/>`
-- `<hr/>`
-- `<source/>`
-- `<col/>`
-- `<embed/>`
-- `<param/>`
-- `<track/>`
-- `<wbr/>`
+```html
+<img/>
+<meta/>
+<link/>
+<input/>
+<br/>
+<hr/>
+<source/>
+<col/>
+<embed/>
+<param/>
+<track/>
+<wbr/>
+```
 
 > ℹ Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
 
@@ -76,11 +80,13 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 
 Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen por completo.
 
-- `<pre></pre>`
-- `<h1> through <h6>`
-- `<blockquote></blockquote>`
-- `<table></table>`
-- `<div></div> ★`
+```html
+<pre></pre>
+<h1> through <h6>
+<blockquote></blockquote>
+<table></table>
+<div></div> ★
+```
 
 [⇡ back to top](#table-of-contents)
 
@@ -120,7 +126,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 > 💡_Algunos atributos no son obligatorios, no requiren valor_.
 
-`<input required placehoder>`
+```html<input required placehoder>```
 
 ## Estructura HTML5
 
