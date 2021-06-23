@@ -14,8 +14,8 @@ Otras Guías de Estilos
 
 1. [Sintaxis](#sintaxis)
     1. [Tipos de Elementos](#tipos-de-elementos)
-        1. [Apertura / Cierre](#normal-elements-apertura-y-cierre)
-        2. [Self Closing](#void-elements-self-closing)
+        1. [Apertura / Cierre](#normal-elements---apertura-y-cierre)
+        2. [Self Closing](#void-elements---self-closing)
 2. [Categoría de Elementos](#categoria-de-elementos)
     1. [Inline-level elements](#inline-level-elements)
     2. [Block-level elements](#block-level-elements)
