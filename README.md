@@ -38,7 +38,7 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 - `<nav></nav>`
 - ...
 
-> 💡**Nota:** La mayor cántidad de elementos son de este tipo; pero existen mas tipos de elementos.
+> **Nota:** La mayor cántidad de elementos son de este tipo; pero existen mas tipos de elementos.
 
 #### Void elements - Self Closing
 
@@ -55,7 +55,7 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 - `<track/>`
 - `<wbr/>`
 
-> 🛈 Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
+> ℹ Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
 
 ## Categoría de Elementos
 
@@ -81,7 +81,9 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 
 [⇡ back to top](#table-of-contents)
 
-## Entidades HTML5
+## Entidades HTML
+
+Para poder incluir los caracteres **>** y **<**, cuando quires escribir código html en una página web y para los caracteres Unicode, aunque ya no es nesesario por el soporte de [Unicode UTF-8](https://unicode-table.com).
 
 ```
 &copy;
@@ -91,6 +93,7 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 &alpha;
 α
 ```
+> 💡&lt; es smaller than y &gt; greater than.
 
 ## Estructura Básica
 
@@ -109,6 +112,10 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 ```
 
 > **Nota:** Con esta estructura ya tienes una página.
+
+## Atributos
+
+
 
 ## Estructura HTML5
 
