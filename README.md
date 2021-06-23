@@ -34,6 +34,7 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 
 ```html
 <!-- Example -->
+
 <h1></h1>
 <p></p>
 <audio></audio>
@@ -48,6 +49,7 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 
 ```html
 <!-- Example -->
+
 <img/>
 <meta/>
 <link/>
@@ -72,6 +74,7 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 
 ```html
 <!-- Example -->
+
 <code></code/>
 <strong></strong>
 <label></label>
@@ -80,12 +83,15 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 ...
 ```
 
+> ℹ[MDN](https://developer.mozilla.org/es/docs/Web/HTML/Inline_elements)
+
 ### Block-level elements
 
 Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen por completo.
 
 ```html
 <!-- Example -->
+
 <pre></pre>
 <h1> through <h6>
 <blockquote></blockquote>
@@ -93,6 +99,8 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 <div></div> ★
 ...
 ```
+
+> ℹ[MDN](https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements)
 
 [⇡ back to top](#table-of-contents)
 
@@ -135,6 +143,8 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 > 💡_Algunos atributos no son obligatorios, no requiren valor_.
 
 ```html
+<!-- Example -->
+
 <input required placehoder>
 ```
 
@@ -159,6 +169,8 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 ```
 
 ## Estructura semántica HTML5
+Organizational elements
+
 
 ## Comentarios
 
