@@ -63,6 +63,8 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 <wbr />
 ```
 
+> 💡 _En HTML5, no es obligatorio cerrar las etiquetas self-closing._
+
 > ℹ [_WHATWG_](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
 
 [⇡ back to top](#table-of-contents)
@@ -114,7 +116,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 &alpha; α
 ```
 
-> 💡 &lt; es smaller than y &gt; greater than.
+> 💡 _&lt; es smaller than y &gt; greater than._
 
 **[⇡ back to top](#table-of-contents)**
 
@@ -141,7 +143,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 ![Atributos en HTML](https://nhuamani.github.io/images/html-atributos.png)
 
-> Caracteristicas de los atributos
+> **Nota:** Caracteristicas de los atributos
 
 ### Tipos de atributos
 
