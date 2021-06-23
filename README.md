@@ -33,6 +33,7 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 #### Normal elements - apertura y cierre
 
 ```html
+<!-- Example -->
 <h1></h1>
 <p></p>
 <audio></audio>
@@ -46,6 +47,7 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 #### Void elements - Self Closing
 
 ```html
+<!-- Example -->
 <img/>
 <meta/>
 <link/>
@@ -69,11 +71,13 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 Los elementos **inline** se colocan uno al lado del otro hasta completar el espacio disponible, luego se colocan uno debajo del otro.
 
 ```html
+<!-- Example -->
 <code></code/>
 <strong></strong>
 <label></label>
 <kbd></kbd>
 <span></span> ★
+...
 ```
 
 ### Block-level elements
@@ -81,11 +85,13 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen por completo.
 
 ```html
+<!-- Example -->
 <pre></pre>
 <h1> through <h6>
 <blockquote></blockquote>
 <table></table>
 <div></div> ★
+...
 ```
 
 [⇡ back to top](#table-of-contents)
@@ -95,6 +101,8 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 Para poder incluir los caracteres **>** y **<**, cuando quires escribir código html en una página web y para los caracteres Unicode, aunque ya no es nesesario por el soporte de [Unicode UTF-8](https://unicode-table.com).
 
 ```html
+<!-- Example -->
+
 &copy;
 <p>Las etiquetas html se escriben así:
     &lt;p&gt;hola&lt;/p&gt;  <!--Resultado rendering-->  <p></p>
@@ -115,7 +123,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
     <body>
         <h1>My Firts Page</h1>
-        <!--This is comment-->
+        <!-- This is comment -->
     </body>
 </html>
 ```
@@ -126,7 +134,9 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
 
 > 💡_Algunos atributos no son obligatorios, no requiren valor_.
 
-```html<input required placehoder>```
+```html
+<input required placehoder>
+```
 
 ## Estructura HTML5
 
@@ -142,7 +152,7 @@ Para poder incluir los caracteres **>** y **<**, cuando quires escribir código 
     </head>
 
     <body>
-        <!-- This a comment-->
+        <!-- This a comment -->
         <h1>My Firts Page</h1>
     </body>
 </html>
