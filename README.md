@@ -64,7 +64,7 @@ Hay seis tipos diferentes de elementos: void elements, the template element, raw
 <wbr/>
 ```
 
-> ℹ Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
+> ℹ [_WHATWG_](https://html.spec.whatwg.org/multipage/syntax.html#elements-2)
 
 ## Categoría de Elementos
 
@@ -83,7 +83,7 @@ Los elementos **inline** se colocan uno al lado del otro hasta completar el espa
 ...
 ```
 
-> ℹ[MDN](https://developer.mozilla.org/es/docs/Web/HTML/Inline_elements)
+> ℹ [_MDN_](https://developer.mozilla.org/es/docs/Web/HTML/Inline_elements)
 
 ### Block-level elements
 
@@ -100,7 +100,7 @@ Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen 
 ...
 ```
 
-> ℹ[MDN](https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements)
+> ℹ [_MDN_](https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements)
 
 [⇡ back to top](#table-of-contents)
 
