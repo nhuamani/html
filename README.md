@@ -28,7 +28,8 @@ Otras Guías de Estilos
 
 ### Tipos de Elementos
 
-#### Apertura y cierre
+#### Normal elements
+
 - `<h1></h1>`
 - `<p></p/>`
 - `<ul><ul/>`
@@ -52,7 +53,29 @@ Otras Guías de Estilos
 - `<track/>`
 - `<wbr/>`
 
-> ℹ Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
+> 🛈 Especificación: _whatwg_ - [Void Elements](https://html.spec.whatwg.org/multipage/syntax.html#void-elements)
+
+## Categoria de elementos
+
+### Inline-level elements
+
+Los elementos **inline** se colocan uno al lado del otro hasta completar el espacio disponible, luego se colocan uno debajo del otro.
+
+- `<img/>`
+- `<input/>`
+- `<label></label>`
+- `<a></a>`
+- `<span></span> ★`
+
+### Block-level elements
+
+Los elementos **block** reservan todo el espacio horizontal aunque no lo ocupen por completo.
+
+- `<p></p>`
+- `<h1> through  <h6>`
+- `<ul></ul>`
+- `<li></li>`
+- `<div></div> ★`
 
 [⇡ back to top](#table-of-contents)
 
@@ -78,13 +101,13 @@ Otras Guías de Estilos
 
 ```html
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="This is my first web page, thanks for visiting" />
         <title>First Document</title>
-        <link rel="icon" href="" />
+        <link rel="icon" href="favicon.ico" />
     </head>
 
     <body>
@@ -125,6 +148,11 @@ Otras Guías de Estilos
 ## Entidades HTML
 
 **[⇡ back to top](#table-of-contents)**
+
+## Temas de Interes
+
+-   [Unicode UTF-8](https://unicode-table.com)
+-   [ASCII Code](https://elcodigoascii.com.ar)
 
 ## Source
 
