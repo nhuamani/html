@@ -400,7 +400,7 @@ Este atributo, indica descargar a los navegadores una URL en lugar de navegar ha
 ```html
 <!-- anclaje a un archivo externo -->
 
-<a href="https://google.github.io/styleguide/htmlcssguide.html" download>Enviar correo a nowhere</a>
+<a href="https://octodex.github.com/images/Sentrytocat_octodex.jpg" download="true">Dowload Octodex</a>
 ```
 
 [⇡ back to top](#table-of-contents)
