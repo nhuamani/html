@@ -256,7 +256,7 @@ Los elementos `<span></span>` y `<div></div>` son etiquetas genericas para los c
         <title>Sample page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="This is my first project with its detailed description." />
-        <link rel="icon" href="favicon.png" />
+        <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg" />
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
@@ -309,13 +309,35 @@ Los elementos `<span></span>` y `<div></div>` son etiquetas genericas para los c
 
 -   [Validador semántico de HTML5](https://validator.w3.org/)
 
+## Semantica de Etiquetas
+
+```html
+<b>Bold text</b>
+<i>Italic Text</i>
+<u>Underline Text</u>
+<sup>Superindice</sup>
+<sub>Superindice</sub>
+<del>Superindice</del>
+<mark>100 hasta la 120</mark>
+<address>100 hasta la 120</address>
+<pre>Preformat</pre>
+<code>console.log('Hello World!')</code>
+<strong>Importancia</strong>
+<em>Ènfasis</em>
+<q>Citas (inline)</q>
+<blockquote>Citas (block)</blockquote>
+<cite>Citas Biblíografia</cite>
+```
+
 [⇡ back to top](#table-of-contents)
 
 ## Comentarios
 
-[⇡ back to top](#table-of-contents)
+Los comentarios se escriben de esta forma:
 
-## Favicon en la pagina web
+```html
+<!-- this is a comment -->
+```
 
 [⇡ back to top](#table-of-contents)
 
@@ -324,6 +346,62 @@ Los elementos `<span></span>` y `<div></div>` son etiquetas genericas para los c
 [⇡ back to top](#table-of-contents)
 
 ## Link
+
+El Elemento HTML Anchor <a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.
+
+```html
+<a href="https://example.com">Website</a>
+```
+
+### Atributos
+
+**href**
+
+```html
+<!-- anclaje a un archivo externo -->
+<a href="https://www.nhuamani.github.io/"> Enlace externo </a>
+
+<!-- enlace a un elemento en esta página con id="attr-href" -->
+<a href="#attr-href"> Descripción de enlaces de la misma página </a>
+```
+
+**target="\_blank"**
+
+Por defecto es el target `_self` tambien existen `_parent` y `_top`.
+
+```html
+<!-- anclaje a un archivo externo -->
+
+<a href="https://www.nhuamani.github.io/" target="_blank" rel="noopener noreferrer"> Enlace externo </a>
+```
+
+> **Nota:** Cuando se utiliza target, considera agregar rel="noopener noreferrer" para evitar el uso de la API window.opener.
+
+**mailto:**
+
+```html
+<!-- anclaje a un archivo externo -->
+
+<a href="mailto:nowhere@nhuamani.dev">Enviar correo a nowhere</a>
+```
+
+**tel:**
+
+```html
+<!-- anclaje a un archivo externo -->
+
+<a href="tel:+491570156">+49 157 0156</a>
+```
+
+**download:**
+
+Este atributo, indica descargar a los navegadores una URL en lugar de navegar hacia ella.
+
+```html
+<!-- anclaje a un archivo externo -->
+
+<a href="https://google.github.io/styleguide/htmlcssguide.html" download>Enviar correo a nowhere</a>
+```
 
 [⇡ back to top](#table-of-contents)
 
@@ -363,6 +441,86 @@ Los elementos `<span></span>` y `<div></div>` son etiquetas genericas para los c
 
 [⇡ back to top](#table-of-contents)
 
+## Microdatos
+
+Sets de atributos para especificar un elemento **que es semanticamente**.
+
+Permiten especificar el significado del texto, usando un set de parametros especificados en [schema.org](https://schema.org).
+
+Se indica con los siguientes atributos:
+
+-   **itemscope** - (indica contexto, es un atributo booleano o vacio)
+-   **itemtype** -(indica el tipo de schema, extraida desde [schema.org](http://schema.org))
+-   **itemprop** - (indica el tipo de dato)
+
+-   [Schema ](https://schema.org)_(Standar)_
+
+### Google
+
+-   [Structured Data - Google](https://developers.google.com/search/docs/guides/intro-structured-data)
+-   [Testing Tools Structured Data](https://search.google.com/structured-data/testing-tool)
+
+```html
+<article itemscope itemtype="https://schema.org/Person">
+    <img itemprop="image" src="profile.png" alt="Nilton Huamaní" />
+    <h2 itemprop="name">Nilton Huamani</h2>
+    <p itemprop="jobTitle">Frontend Developer</p>
+    <p itemprop="email">nhuamani@gmail.com</p>
+    <p itemprop="address">Cusco, Perú</p>
+</article>
+
+<article itemscope itemtype="https://schema.org/Book">
+    <img itemprop="image" src="book.jpg" alt="Libro" />
+    <h2 itemprop="name">Don Quijote de la Mancha</h2>
+    <p itemprop="about">La historia de Don Quijote y sus aventuras</p>
+    <p itemprop="author">Miguel de Cervantes Saavedra</p>
+    <p itemprop="copyrightYear">1532</p>
+</article>
+```
+
+### Facebook
+
+-   [Open Graph Protocol - Facebook](https://schema.org/)
+-   [Testing Tools Open Graph](https://developers.facebook.com/tools/debug/)
+
+```html
+<!-- Url de la página -->
+<!-- Título de la página -->
+<!-- Descripción de la página -->
+<!-- Imagen para compartir -->
+
+<meta property="og:url" content="https://nhuamani.github.io/blog" />
+<meta property="og:title" content="Optimiza tu web con Twitter cards" />
+<meta property="og:description" content="Con poco código puedes personalizar como Twitter muestra tu página al compartirla" />
+<meta property="og:image" content="https://nhuamani.github.io/images/blog/twitter-cards.jpg" />
+
+<!-- Extras -->
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_PE" />
+<meta property="og:site_name" content="nhuamani - Frontend Developer" />
+```
+
+Twitter
+
+-   [Twitter for Websites with Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
+-   [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+
+```html
+<!-- Url de la página -->
+<!-- Título de la página -->
+<!-- Descripción de la página -->
+<!-- Imagen para compartir -->
+
+<meta name="twitter:url" content="https://nhuamani.github.io/blog" />
+<meta name="twitter:title" content="Optimiza tu web con Twitter cards" />
+<meta name="twitter:description" content="Con poco código puedes personalizar como Twitter muestra tu página al compartirla" />
+<meta name="twitter:image" content="https://nhuamani.github.io/blog/twitter-cards.jpg" />
+
+<!-- Extras-->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@nhuamanic" />
+```
+
 ## Temas de Interes
 
 -   [Unicode UTF-8](https://unicode-table.com)
@@ -374,5 +532,10 @@ Los elementos `<span></span>` y `<div></div>` son etiquetas genericas para los c
 -   [W3C Recommendation (2017)](https://www.w3.org/TR/html52/)
 -   [Living Standard (2020))](https://html.spec.whatwg.org/)
 -   [Mozilla Developer Network](https://developer.mozilla.org/es/docs/Web/HTML)
+
+## Libraries
+
+-   [Scroll Reveal](https://scrollrevealjs.org/)
+-   [Smooth Scroll](https://github.com/iamdustan/smoothscroll)
 
 **[☝ back to top](#table-of-contents)**
