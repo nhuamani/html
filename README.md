@@ -319,14 +319,14 @@ Los elementos `<span></span>` y `<div></div>` son etiquetas genericas para los c
 <sub>Superindice</sub>
 <del>Superindice</del>
 <mark>100 hasta la 120</mark>
-<address>100 hasta la 120</address>
+<address>Av. 28 de Julio #1089</address>
 <pre>Preformat</pre>
 <code>console.log('Hello World!')</code>
 <strong>Importancia</strong>
-<em>Ènfasis</em>
+<em>Énfasis</em>
 <q>Citas (inline)</q>
 <blockquote>Citas (block)</blockquote>
-<cite>Citas Biblíografia</cite>
+<cite>Citas Biblíograficas</cite>
 ```
 
 [⇡ back to top](#table-of-contents)
@@ -345,9 +345,9 @@ Los comentarios se escriben de esta forma:
 
 [⇡ back to top](#table-of-contents)
 
-## Link
+## Links
 
-El Elemento HTML Anchor <a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.
+El Elemento HTML Anchor `<a>` crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.
 
 ```html
 <a href="https://example.com">Website</a>
@@ -363,6 +363,16 @@ El Elemento HTML Anchor <a> crea un enlace a otras páginas de internet, archivo
 
 <!-- enlace a un elemento en esta página con id="attr-href" -->
 <a href="#attr-href"> Descripción de enlaces de la misma página </a>
+```
+
+**title**
+
+Se muestra al pasar el mouse encima del elemento _(hover)_ y lo muestra en un _tooltip_.
+
+```html
+<!-- anclaje a un archivo externo -->
+
+<a href="https://www.nhuamani.github.io/" title="Mas información del enlace"> Enlace externo </a>
 ```
 
 **target="\_blank"**
@@ -400,7 +410,44 @@ Este atributo, indica descargar a los navegadores una URL en lugar de navegar ha
 ```html
 <!-- anclaje a un archivo externo -->
 
-<a href="https://octodex.github.com/images/Sentrytocat_octodex.jpg" download="true">Dowload Octodex</a>
+<a href="img/yaktocat.png" download="new-name">Dowload Octodex</a>
+```
+
+### Marcadores
+
+Los marcadores se indican con un hash **#** seguido del `id` del destino.
+
+```html
+<!-- Enlaces -->
+<a href="#history">Go to History</a>
+<a href="#history">Go to Biography</a>
+
+<h2 id="history">I'm the destination</h2>
+<h2 id="biography">I'm the destination</h2>
+```
+
+### Tipos de Rutas
+
+Las rutas le indican al sistema como acceder a un recurso (como encontrarlo).
+
+Hay tres tipos de rutas:
+
+**Rutas Absolutas:** Son URL únicas y comienzan con un protocolo. Ejm. https://www.dominio.com
+
+**Rutas Relativas:** Son las relativas al archivo de origen. Origen y destino en la misma carpeta. Se pone el nombre del archivo.
+
+Para subir de nivel se utiliza `../`
+
+```html
+<a href="../contact.html">Contact</a> <a href="../../about.html">About</a>
+```
+
+**Rutas relativas a la raíz:** La raíz se indica con `/`
+
+```html
+<a href="/">Home</a>
+<a href="/carpeta/contact.html">Contact</a>
+<a href="/carpeta/subcarpeta/about.html">About</a>
 ```
 
 [⇡ back to top](#table-of-contents)
